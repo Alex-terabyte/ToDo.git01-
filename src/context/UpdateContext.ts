@@ -1,3 +1,4 @@
+import React from "react";
 import { createContext } from "react";
 
 /*
@@ -6,4 +7,7 @@ import { createContext } from "react";
 переменную fetching и функцию setFetching
 */
 
-export const UpdateContext = createContext(null);
+export const UpdateContext = createContext({
+  fetching: false,
+  setFetching: (_value: boolean) => {},
+});

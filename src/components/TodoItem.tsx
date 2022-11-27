@@ -1,4 +1,4 @@
-import React, { FC, useContext, useState } from "react";
+import { FC, useContext, useState } from "react";
 import { UpdateContext } from "../context/UpdateContext";
 import { ToDoItem } from "../models/ToDoItem";
 import currentDate from "../utils/CurrentDate";
@@ -162,6 +162,11 @@ const TodoItem: FC<ItemProps> = ({ item }) => {
               <br /> {item.expDate}
             </p>
           </li>
+
+          {/* Данный элемент списка не задейстовован потому 
+              что на сервере не поддерживается
+              загрузка файлов  */}
+
           {/* <li className="todo__item-field field__file">
             <div>
               Файл:

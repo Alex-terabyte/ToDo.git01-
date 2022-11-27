@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import { ToDoItem } from "../models/ToDoItem";
 import TodoItem from "./TodoItem";
 

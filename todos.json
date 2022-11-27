@@ -1,13 +1,6 @@
 {
   "todos": [
     {
-      "id": 1669288978383,
-      "title": "Магазин",
-      "discription": "Купить хлеб",
-      "expDate": "2022-11-25",
-      "isComplited": true
-    },
-    {
       "id": 1669288984840,
       "title": "Магазин",
       "discription": "Купить молоко",
@@ -31,7 +24,7 @@
     {
       "id": 1669530805518,
       "title": "Магазин",
-      "discription": "Купить еды",
+      "discription": "Купить хлеб",
       "expDate": "2022-12-10",
       "isComplited": true
     }
