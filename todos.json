@@ -1,0 +1,39 @@
+{
+  "todos": [
+    {
+      "id": 1669288978383,
+      "title": "Магазин",
+      "discription": "Купить хлеб",
+      "expDate": "2022-11-25",
+      "isComplited": true
+    },
+    {
+      "id": 1669288984840,
+      "title": "Магазин",
+      "discription": "Купить молоко",
+      "expDate": "2022-11-25",
+      "isComplited": false
+    },
+    {
+      "id": 1669288992366,
+      "title": "Магазин",
+      "discription": "Купить яйца",
+      "expDate": "2022-11-25",
+      "isComplited": true
+    },
+    {
+      "id": 1669289025370,
+      "title": "Спортзал",
+      "discription": "Пробежать 100м ",
+      "expDate": "2022-11-24",
+      "isComplited": false
+    },
+    {
+      "id": 1669530805518,
+      "title": "Магазин",
+      "discription": "Купить еды",
+      "expDate": "2022-12-10",
+      "isComplited": true
+    }
+  ]
+}

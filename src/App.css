@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.createTodo__form {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px 0;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.input {
+  width: 130px;
+  margin-bottom: 12px;
+  margin-right: 10px;
+  padding: 5px 12px;
+}
+
+.input::placeholder {
+  color: rgba(0, 0, 0, 0.705);
+}
+
+.input__button {
+  cursor: pointer;
+  padding: 7px 10px;
+  color: rgba(0, 0, 0, 0.795);
+  font-weight: 700;
+  margin-bottom: 12px;
+  margin-right: 10px;
+}
+
+.todo__list {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: auto;
+}
+
+.todo__item {
+  min-height: 100px;
+  width: fit-content;
+  margin-bottom: 10px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 25px;
+  border-radius: 15px;
+  background-color: rgb(228, 221, 255);
+}
+
+.header {
+  text-align: center;
+  font-size: 64px;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid rgb(80, 77, 77);
+  cursor: pointer;
+}
+
+.button {
+  border: none;
+}
+
+.save_button,
+.cansel_button {
+  margin-right: 10px;
+}
+
+.todo__item-field {
+  width: 100px;
+  height: 46px;
+
+  height: fit-content;
+  margin-right: 10px;
+}
+
+.edit_input {
+  width: 130px;
+  height: 25px;
+  margin-bottom: 12px;
+  margin-right: 10px;
+  padding: 5px 12px;
+}
